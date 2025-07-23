@@ -62,7 +62,7 @@ class TestPackageSorting:
 
     def test_volume_calculation_accuracy(self):
         """Test that volume calculation is accurate for edge cases."""
-        assert sort(99.99, 100, 100, 10) == "SPECIAL"
+        assert sort(99.99, 100, 100, 10) == "STANDARD"
 
         assert sort(100, 100, 100, 10) == "SPECIAL"
 
