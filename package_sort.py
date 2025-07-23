@@ -1,15 +1,16 @@
 """Sort packages into appropriate stacks based on their dimensions and mass."""
 
+
 def sort(width: float, height: float, length: float, mass: float) -> str:
     """
     Sort packages into appropriate stacks based on their dimensions and mass.
-    
+
     Args:
         width: Package width in centimeters
         height: Package height in centimeters
         length: Package length in centimeters
         mass: Package mass in kilograms
-    
+
     Returns:
         str: The stack where the package should go ("STANDARD", "SPECIAL", or "REJECTED")
     """

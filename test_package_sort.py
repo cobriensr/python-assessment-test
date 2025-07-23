@@ -3,6 +3,7 @@
 import pytest
 from package_sort import sort
 
+
 class TestPackageSorting:
     """Test cases for the package sorting function."""
 
@@ -71,6 +72,7 @@ class TestPackageSorting:
         assert sort(99.5, 99.5, 99.5, 19.5) == "STANDARD"
         assert sort(150.1, 50.5, 50.5, 19.9) == "SPECIAL"
         assert sort(150.0, 50.0, 50.0, 20.0) == "REJECTED"
+
 
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])
